@@ -33,7 +33,6 @@ const Cuaderno = () => {
                                             <div className="cuad-carpeta-titulo">
                                                 <h1 className="cuad-h1h">
                                                    <a href="/">Anatomía</a>
-                                                    <a href="/"></a>
                                                 </h1>
                                             </div>
 
