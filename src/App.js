@@ -43,6 +43,10 @@ function App() {
               <Index />       
             </Route>
 
+            <Route path="/RandomCodeWeb" exact>
+              <Index />       
+            </Route>
+
             <Route path="/Menumatlab" exact>
               <MenuMatlab/>
             </Route>
