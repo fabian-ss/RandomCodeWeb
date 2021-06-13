@@ -75,7 +75,7 @@ const MenuMatlab = () => {
                                                     <div className="code-tarj">
                                                         <div className="code-tarj-titulo">
                                                             <h2>Datos</h2>
-                                                            <h2></h2>
+                                                    
                                                         </div>
 
                                                         <Link to="/Menumatlab/Datos"><p>Código</p></Link>

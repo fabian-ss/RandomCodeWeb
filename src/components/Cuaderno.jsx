@@ -31,7 +31,10 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1 className="cuad-h1h"><a href="">Anatomía</a><a href=""></a></h1>
+                                                <h1 className="cuad-h1h">
+                                                   <a href="/">Anatomía</a>
+                                                    <a href="/"></a>
+                                                </h1>
                                             </div>
 
                                         </div>
@@ -43,7 +46,9 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1><a href="">Quimíca</a><a href="">Orgánica</a></h1>
+                                                <h1><a href="/">Quimíca</a>
+                                                    <a href="/">Orgánica</a>
+                                                </h1>
                                             </div>
 
                                         </div>
@@ -60,10 +65,11 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1 className="h1h"><a href="">Biología</a><a href="">Molecular</a></h1>
-
+                                                <h1 className="h1h">
+                                                    <a href="/">Biología</a>
+                                                    <a href="/">Molecular</a>
+                                                </h1>
                                             </div>
-
                                         </div>
 
                                         <div className="cuad-carpeta">
@@ -73,7 +79,9 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1><a href="">Biofísica</a></h1>
+                                                <h1>
+                                                    <a href={() => false}>Biofísica</a>
+                                                </h1>
                                             </div>
 
                                         </div>
@@ -100,7 +108,10 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1 className="cuad-h1h"><a href="">Fisico-</a><a href="">química</a></h1>
+                                                <h1 className="cuad-h1h">
+                                                    <a href={() => false}>Fisico-</a>
+                                                    <a href={() => false}>química</a>
+                                                </h1>
                                             </div>
 
                                         </div>
@@ -112,7 +123,10 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1><a href="">Métodos</a><a href="">Númericos</a></h1>
+                                                <h1>
+                                                    <a href={() => false}>Métodos</a>
+                                                    <a href={() => false}>Númericos</a>
+                                                </h1>
                                             </div>
 
                                         </div>
@@ -130,7 +144,9 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1 className="cuad-h1h"><a href="">Óptica</a></h1>
+                                                <h1 className="cuad-h1h">
+                                                    <a href={() => false}>Óptica</a>
+                                                </h1>
 
                                             </div>
 
@@ -143,7 +159,9 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1><a href="">Biofísica</a></h1>
+                                                <h1>
+                                                    <a href={() => false}>Biofísica</a>
+                                                </h1>
                                             </div>
 
                                         </div>

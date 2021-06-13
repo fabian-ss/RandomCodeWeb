@@ -12,7 +12,6 @@ import About from './components/About';
 import Cuaderno from './components/Cuaderno';
 import Navegacion from './components/Navegacion';
 import Regresionlineal from './componentspdfmatlab/Regresionlineal';
-import Apuntes from './componentsApuntes/Apuntes';
 import Curri from './components/Curri';
 import Datos from './componentspdfmatlab/Datos';
 import Gaussjordan from './componentspdfmatlab/Gaussjordan';
@@ -55,10 +54,6 @@ function App() {
             <Route path="/About" exact>
               <About/>
             </Route> 
-
-            <Route path="/Apuntes">
-              <Apuntes/>
-            </Route>
 
             <Route path="/Curriculum" exact>
               <Curri/>

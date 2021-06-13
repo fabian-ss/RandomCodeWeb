@@ -21,7 +21,7 @@ const Navegacion = () => {
                                 <div className="top-header-logo">
 
                                     <NavLink to="/">
-                                        <a>RandomCode</a>
+                                        <a href={() => false}>RandomCode</a>
                                     </NavLink>
 
                                 </div>
@@ -29,15 +29,15 @@ const Navegacion = () => {
                                 <div className="enlace">
 
                                     <Link to="/MenuMatlab">
-                                        <a className="enlaces">MATLAB</a>
+                                        <a className="enlaces" href={() => false}>MATLAB</a>
                                     </Link>
 
                                     <Link to="/Cuaderno">
-                                        <a className="enlaces">Cuaderno</a>
+                                        <a className="enlaces" href={() => false}>Cuaderno</a>
                                     </Link>
 
                                     <Link to="/About">
-                                        <a className="enlaces">About</a>
+                                        <a className="enlaces" href={() => false}>About</a>
                                     </Link>
 
 
