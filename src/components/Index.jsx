@@ -36,7 +36,7 @@ const Index = () => {
 
                                         <div className="index-main-cuerpo-superior-derecho">
 
-                                            <p>En esta página encontraras apuntes de programación en MATLAB y Python, pero tambien tendra contenido de diferentes áreas de la ciencia, asi como algo de música</p>
+                                            <p>En esta página encontraras apuntes de programación de MATLAB, pero tambien tendra contenido de diferentes áreas de la ciencia, asi como algo de música</p>
 
                                         </div>
 
