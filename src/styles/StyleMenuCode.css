@@ -1,85 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
-/* Cuerpo del componente */
-
-
-/* Aspectos generales */
-
-#py-main{
-    width: 100%;
-    height: 100%;
-}
-
-#mat-main{
-    width: 100%;
-    height: 100%;
-}
-
 .code-main-container-global{
-    width: 100%;
+    width: 90%;
     height: 100%;
-    display: flex;
-    max-width: 1700px;
     margin: 0 auto;
-}
-/* 
-User: CastielAltair0027@outlook.com
-Pass: marblesounds272 */
-.code-main-container-central{
-    width: 90%;
-    margin: 0 auto;
-    /* background-color: red; */
+    padding-top: 1px;
+    padding-bottom: 9px;
 }
 
-
-/* Cabecera del cuerpo */
-
-        /* Caso Python */
-
-.code-py-main-cabecera{
-    width: 90%;
-    background: linear-gradient(0.25turn,#0D0D0D,#F2C641,#3672b8,#F2C641,#0D0D0D);
-    margin: 0 auto;
-    border-radius: 25px;
-}
-
-        /* Caso Matlab */
+/* Cabecera */
 
 .code-mat-main-cabecera{
-    width: 90%;
-    background: linear-gradient(0.25turn,#0D0D0D,#f89233,#0D0D0D);
+    width: 100%;
+    height: 80px;
     margin: 0 auto;
-    border-radius: 25px;
+    margin-bottom: 30px;
 }
 
 .code-main-cabecera-container{
-    width: 90%;
-    height: 90px;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    /* background-color: sandybrown; */
+    justify-content: space-evenly;
+    background: linear-gradient(0.25turn,#0D0D0D,#f89233,#0D0D0D);
     align-items: center;
     margin: 20px auto;
+    border-radius: 25px;
+
 }
 
 .code-main-cabecera-container-img{
     width: 80px;
     height: 80px;
-    /* background-color: skyblue; */
 }
 
 .code-main-cabecera-container-img img{
     width: 100%;
     height: 100%;
-    /* background-color: skyblue; */
 }
 
 .code-main-container-titulo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     /* background-color: rgb(114, 250, 143); */
 }
 
 .code-main-container-titulo h1{
@@ -89,11 +53,10 @@ Pass: marblesounds272 */
  /* Cuerpo Principal */
 
 .code-main-cuerpo{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    margin: 10px auto;
+    margin: 0 auto;
     border-radius: 25px;
-    padding: 20px;
     background-color: rgb(224, 255, 255);
     background-image:
     linear-gradient(90deg, transparent 36px, #4b8d99 40px, #abced4 42px, transparent 42px),
@@ -101,80 +64,70 @@ Pass: marblesounds272 */
     background-size: 100% 1.5rem; 
 }
 
-
-.code-main-cuerpo-superior-secciones{
-    width: 100%;
-    height: 100%;    
-    /* background-color: aqua; */
-    /* background-color: maroon; */
-}
-
-
-.code-main-cuerpo-superior-secciones-container{
-    width: 100%;
+.code-main-cuerpo-container{
+    width: 90%;
     height: 100%;
-    /* background-color:blue; */
-    margin: 0 auto;
+    padding-top: 35px;
     display: flex;
     flex-wrap: wrap;
-    /* border: 3px groove rgb(0, 0, 0); */
-    border-radius: 20px;
-    padding: 20px 30px;
-    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;   
+    margin: 0 auto;
 }
 
-    /* Menu Container  */
-
-.code-main-cuerpo-superior-secciones-container-s1{
-    width: 50%;
-    height: 50%;
-    /* background-color: red; */
+.code-main-cuerpo-secciones{
+    width: 33%;
+    height: 100%;    
+    border-radius: 20px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
 }
 
 
 .code-carpeta{
-    width: 170px;
-    height: 100%;
-    /* background-color: rgb(79, 60, 97);  */
-    /* border: 2px solid black; */
-    margin: 0px auto;
     display: flex;
+    margin: 0 auto;
+    width: 150px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 
-    /* Tarjetas del Menu */
+/* Tarjetas del Menu */
 
 .code-tarj{
-    width: 100%;
-    height: 100%;
+    width: 169px;
     border-radius: 20px;
     border: 4px solid black;
     border-top: none;
     border-right: none;
     margin-bottom: 20px;
-    /* background-color: aqua; */
 }
 
 .code-tarj-titulo{
-    width: 100%;
+    width: 170px;
     height: 60px;
     background: linear-gradient(0.25turn,#414040,#2d5f7e,#0D0D0D);
     border-radius: 20px;
     border: 3px solid rgb(41, 107, 107);
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: cornsilk;
     flex-direction: column;
 }
 
 .code-tarj p{
+    width: 165px;
+    height: 54px;
     border-radius: 15px;
-    padding: 15px;
     background-image: linear-gradient(to bottom, black, black);
     text-shadow: 1px 1px 1px black;
     color: #A68B03;
@@ -183,219 +136,179 @@ Pass: marblesounds272 */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-/* Barra Lateral */
-
-.code-main-barralateral{
-    width: 20%;
-    background-color: royalblue;
-}
-
-.code-main-barralateral{
-    width: 20%;
-    background-color:#1F2339;
-    color: whitesmoke;
-    max-width: 500px;
-}
-
-.code-main-barralateral div.code-bus{
-    padding: 24px 15px;
-    overflow: hidden;
-    width: 100%;
-    white-space: nowrap;
-}
-
-    /* Caso Python */
-
-.code-main-barralateral div.code-bus input.input-py{
-    width: 82%;
-    height: 50px;
-    background: #2b303b;
-    border: 4px solid #F2C641;
-    border-right: none;
-    font-size: 12pt;
-    color: #fff;
-    padding-left: 15px;
-    border-radius: 5px;
-    float: left;
-    outline: none;
-}
-
-        /* Caso MATLAB */
-
-.code-main-barralateral div.code-bus input.input-mat{
-    width: 82%;
-    height: 50px;
-    background: #2b303b;
-    border: 4px solid #24d8c9;
-    border-right: none;
-    font-size: 12pt;
-    color: #fff;
-    padding-left: 15px;
-    border-radius: 5px;
-    float: left;
-    outline: none;
-}
-
-.input-py::placeholder {  
-    color: #5ab3eb;  
-    font-style: italic;
-}
-
-.input-mat::placeholder {  
-    color: #ebb15a;  
-    font-style: italic;
-}
-
-    /* Caso Python */
-
-.code-bus button.code-icono-py{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: 4px solid #F2C641;
-    border-left: none;
-    background: #232833;
-    height: 50px;
-    width: 50px;
-    color: #1372ca;
-    opacity: 100%;
-    font-size: 13pt;   
-    transition: all .55s ease;
-}
-
-    /* Caso Matlab */
-
-.code-bus button.code-icono-mat{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: 4px solid #24d8c9;
-    border-left: none;
-    background: #232833;
-    height: 50px;
-    width: 50px;
-    color: #ce6e1f;
-    opacity: 100%;
-    font-size: 13pt;   
-    transition: all .55s ease;
-}
-
-
-.code-bus button.code-icono:hover{
-    background-color: black;
-    color: rgb(129, 45, 129);
-}
-
-.code-temario{
-    font-size: 10px;
-    padding: 8.2px 10px;
-    border-bottom: 3px solid #BFB304;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-.code-temguide li{
-    list-style: none;
-    padding-top: 20px;
-    padding-left: 10px;
-    font-size: 15px;
-    /* background-color: green; */
-}
-
-.code-temguide li a{
-    color: #fff;
-    font-size: 20px;
-    padding-top: 5px;
-    /* background-color: hotpink; */
-}
-
-.code-temguide ul{
-    color: #fff;
-    font-size: 20px;
-    /* background-color: hotpink; */
-}
-
-
-.code-tarj p:hover {
-    background: #2079b0;
-    background-image: linear-gradient(.33turn,#387CA6, #d6d328);
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px 1px whitesmoke;
-}
+} 
 
 /* Css-Plus */
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 950px){
+    .code-main-cuerpo-secciones{
+        width: 50%;
+    }
+    
+    .code-main-cuerpo-container{
+        width: 80%;
+    }
+}
 
-    .code-main-container-central{
+@media screen and (max-width: 560px){
+    .code-main-cuerpo-secciones{
         width: 100%;
-        /* background-color: gold */
     }
 
-    .code-main-barralateral{
-        display: none;
-    }
+}
+
+@media screen and (max-width: 500px){
 
     .code-main-cabecera-container-img{
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
-    .code-main-container-titulo h1{
+    .code-main-cuerpo-container{
+        width: 20%;
+    }
+
+    .code-main-cabecera-container h1{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+
+    .code-main-cabecera-container-img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .code-main-cabecera-container-img img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .code-main-cabecera-container h1{
         font-size: 27px;
     }
 
 }
 
-/* SVG */
+@media screen and (max-width: 340px){
 
-.code-fas-fa-angle{
-    width: 21px;
-    height: 21px;
-    color: #fff;
-     background-color: aquamarine;
-    padding-top: px;
+    .code-main-cabecera-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .code-main-container-titulo{
+        display: none;
+    }
+
+    .img-mat-dos img{
+        display: none;
+    }
+
+    .code-tarj p{
+        width: 120px;
+    }
+
+    .code-tarj{
+        width: 120px;
+        border-bottom: none;
+    }
+
+    .code-tarj-titulo{
+        width: 120px;
+        height: 100%;
+    }
+
 }
 
-.code-fas-fa-search{
-    width: 20px;
-    height: 20px;
-    margin-top: 6px;
+/* Cosas Raras */
+.code-pagination{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 20px 20px 20px;
 }
 
-.code-fas-fa-search-n{
-    width: 20px;
-    height: 20px;
-    margin-top: 6px;
+.code-pagination div{
+    margin: 15px 0 0 5px;
 }
 
-.code-bus .code-icono-mat{
-    background-color: khaki;
-    opacity: 1;
+
+.code-contorno-boton{
+    width: 80px;
+    height: 30px;
+    background-image: linear-gradient(120deg, #33a7f5 0%, #2edfdf 100%);
+    border-radius: 10px;
+    border: .1px solid black;
 }
 
-/* .code-fas-fa-search:hover{
-    opacity: 0;
+.code-boton{
+    width: 80px;
+    height: 30px;
+    background-image: linear-gradient(120deg, #33a7f5 0%, #2edfdf 100%);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight:bolder;
+    box-shadow: 1px 0px 5px 0px black;
 }
 
-.code-fas-fa-search-n:hover{
+.code-span-boton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:bolder;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+
+}
+
+.code-span-boton-pre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:bolder;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.code-main-cuerpo-secciones.hide{
+    display: none;
+    
+}
+
+.code-main-cuerpo-secciones.show{
     display: block;
-    background-color: lightpink;
-} */
+    animation: show .5s ease;
 
+}
+
+.bothide{
+    display: none;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
 /* Fondo */
 
-
 .code-bodyBack{
-    height: 100%;
-    margin: 0 auto;
-    /* background-color: aquamarine; */
     max-width: 100%;
     min-height: 100vh;
     height: 100%;
