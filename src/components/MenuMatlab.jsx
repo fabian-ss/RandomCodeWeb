@@ -43,7 +43,6 @@ const MenuMatlab = () => {
         const nextspan = nextspanRef.current
         const prevspan = prevspanRef.current
 
-        console.log(index)
         if (index <= 1) {
             prevspan.classList.remove("bothide");
             botonpre.classList.add("bothide");
@@ -63,7 +62,6 @@ const MenuMatlab = () => {
         const prevspan = prevspanRef.current
         const nextspan = nextspanRef.current
 
-        console.log(nextRef.current)
         if (index > 1) {
             botonpre.classList.remove("bothide");
             prevspan.classList.add("bothide");
