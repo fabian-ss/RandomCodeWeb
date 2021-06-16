@@ -292,22 +292,6 @@ const MenuMatlab = () => {
                                     <div className="code-carpeta">
 
                                         <div className="code-tarj">
-                                            <div className="code-tarj-titulo">
-                                                <h2>Puntos</h2>
-                                                <h2>Criticos</h2>
-                                            </div>
-
-                                            <Link to="/Menumatlab/PuntosCriticos2Variables"><p>Código</p></Link>
-                                            <Link><p>Ejercicios</p></Link>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div className="code-main-cuerpo-secciones bothide">
-                                    <div className="code-carpeta">
-
-                                        <div className="code-tarj">
 
                                             <div className="code-tarj-titulo">
                                                 <h2>Raices</h2>
