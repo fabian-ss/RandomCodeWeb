@@ -32,7 +32,7 @@ const Cuaderno = () => {
 
                                             <div className="cuad-carpeta-titulo">
                                                 <h1 className="cuad-h1h">
-                                                   <a href="/">Anatomía</a>
+                                                   <a href={() => false}>Anatomía</a>
                                                 </h1>
                                             </div>
 
@@ -45,8 +45,8 @@ const Cuaderno = () => {
                                             </div>
 
                                             <div className="cuad-carpeta-titulo">
-                                                <h1><a href="/">Quimíca</a>
-                                                    <a href="/">Orgánica</a>
+                                                <h1><a href={() => false}>Quimíca</a>
+                                                    <a href={() => false}>Orgánica</a>
                                                 </h1>
                                             </div>
 
@@ -65,8 +65,8 @@ const Cuaderno = () => {
 
                                             <div className="cuad-carpeta-titulo">
                                                 <h1 className="h1h">
-                                                    <a href="/">Biología</a>
-                                                    <a href="/">Molecular</a>
+                                                    <a href={() => false}>Biología</a>
+                                                    <a href={() => false}>Molecular</a>
                                                 </h1>
                                             </div>
                                         </div>
@@ -159,7 +159,7 @@ const Cuaderno = () => {
 
                                             <div className="cuad-carpeta-titulo">
                                                 <h1>
-                                                    <a href={() => false}>Biofísica</a>
+                                                    <a href={() => false}>MATLAB</a>
                                                 </h1>
                                             </div>
 

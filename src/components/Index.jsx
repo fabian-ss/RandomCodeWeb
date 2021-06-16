@@ -39,7 +39,7 @@ const Index = () => {
                                             <p>En esta página encontraras apuntes de programación en MATLAB, pero también tendrá contenido de diferentes áreas de la ciencia, así como algo de música</p>
                                         </div>
 
-
+                                        {/* https://www.filco.es/akbar-rey-tolerancia-religiosa-la-india/ */}
 
                                     </div>
 
