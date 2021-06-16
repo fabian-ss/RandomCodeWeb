@@ -1,1 +1,1 @@
-En Random Code Web, encontraras apuntes de escolares y de MATLAB, pagina desplegada en https://randomcodeweb.netlify.app
+En Random Code Web, encontrarás apuntes de escolares y código de MATLAB, página desplegada en https://randomcodeweb.netlify.app
