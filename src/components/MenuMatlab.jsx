@@ -313,7 +313,7 @@ const MenuMatlab = () => {
 
                                             <div className="code-tarj-titulo">
                                                 <h2>Puntos críticos</h2>
-                                                <h2>2 variariables</h2>
+                                                <h2>2 variables</h2>
 
 
                                             </div>
