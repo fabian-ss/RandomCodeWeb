@@ -24,9 +24,7 @@ const MenuMatlab = () => {
 
         const gallery = paginaRef.current.children
         const n = paginaRef.current.childElementCount
-
-        const pagination = Math.ceil(((maxItem * index) / n) * 3);
-
+        
         for (let i = 0; i < n; i++) {
             gallery[i].classList.add("bothide")
 
@@ -77,8 +75,6 @@ const MenuMatlab = () => {
         handle()
 
     }
-
-    // const value=paginaRef.current; childNodes childElementCount children
 
     return (
 
