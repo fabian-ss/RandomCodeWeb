@@ -17,14 +17,14 @@ const MenuMatlab = () => {
 
     const maxItem = 9;
     let index = 1;
-    const MaxElementos = 12; 
-    const total = Math.ceil(MaxElementos/ maxItem);
+    const MaxElementos = 12;
+    const total = Math.ceil(MaxElementos / maxItem);
 
     const handle = () => {
 
         const gallery = paginaRef.current.children
         const n = paginaRef.current.childElementCount
-        
+
         for (let i = 0; i < n; i++) {
             gallery[i].classList.add("bothide")
 
@@ -319,6 +319,44 @@ const MenuMatlab = () => {
                                             </div>
 
                                             <Link to="/Menumatlab/PuntosCriticos2Variables"><p>Código</p></Link>
+                                            <Link> <p>Ejercicios</p></Link>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div className="code-main-cuerpo-secciones bothide">
+                                    <div className="code-carpeta">
+
+                                        <div className="code-tarj">
+
+                                            <div className="code-tarj-titulo">
+                                                <h2>Imágenes</h2>
+                                                <h2>Transparentes</h2>
+
+
+                                            </div>
+
+                                            <Link to="/Menumatlab/ImagenesTransparentes"><p>Código</p></Link>
+                                            <Link> <p>Ejercicios</p></Link>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div className="code-main-cuerpo-secciones bothide">
+                                    <div className="code-carpeta">
+
+                                        <div className="code-tarj">
+
+                                            <div className="code-tarj-titulo">
+                                                <h2>Galería de</h2>
+                                                <h2>imágenes</h2>
+
+
+                                            </div>
+
+                                            <Link to="/Menumatlab/GaleriaDeImagenes"><p>Código</p></Link>
                                             <Link> <p>Ejercicios</p></Link>
                                         </div>
 

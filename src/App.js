@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import{
+import {
   BrowserRouter as Router,
   Switch,
   Route
@@ -25,6 +25,8 @@ import PolinomioDeTaylor from './componentspdfmatlab/PolinomioDeTaylor';
 import PuntosCriticos2Variables from './componentspdfmatlab/PuntosCriticos2Variables';
 import Raices from './componentspdfmatlab/Raices';
 import RegresionMultiple from './componentspdfmatlab/RegresionMultiple';
+import ImagenesTransparentes from './componentspdfmatlab/ImagenesTransparentes';
+import GaleriaDeImagenes from './componentspdfmatlab/GaleriaDeImagenes'
 
 
 
@@ -33,91 +35,100 @@ function App() {
 
   return (
     <Router>
-     <Navegacion />    
+      <Navegacion />
 
       <div>
 
         <Switch>
-           
-            <Route path="/" exact>
-              <Index />       
-            </Route>
 
-            <Route path="/RandomCodeWeb" exact>
-              <Index />       
-            </Route>
+          <Route path="/" exact>
+            <Index />
+          </Route>
 
-            <Route path="/Menumatlab" exact>
-              <MenuMatlab/>
-            </Route>
+          <Route path="/RandomCodeWeb" exact>
+            <Index />
+          </Route>
 
-            <Route path="/Cuaderno" exact>
-              <Cuaderno/>
-            </Route>
+          <Route path="/Menumatlab" exact>
+            <MenuMatlab />
+          </Route>
 
-            <Route path="/About" exact>
-              <About/>
-            </Route> 
+          <Route path="/Cuaderno" exact>
+            <Cuaderno />
+          </Route>
 
-            <Route path="/Curriculum" exact>
-              <Curri/>
-            </Route>
+          <Route path="/About" exact>
+            <About />
+          </Route>
 
-            <Route path="/Menumatlab/Regresionlineal">
-              <Regresionlineal/>
-            </Route> 
+          <Route path="/Curriculum" exact>
+            <Curri />
+          </Route>
 
-            <Route path="/Menumatlab/Datos">
-              <Datos/>
-            </Route>
+          <Route path="/Menumatlab/Regresionlineal">
+            <Regresionlineal />
+          </Route>
 
-            <Route path="/Menumatlab/Gaussjordan">
-              <Gaussjordan/>
-            </Route>  
+          <Route path="/Menumatlab/Datos">
+            <Datos />
+          </Route>
 
-            <Route path="/Menumatlab/GraficaDeVectores">
-              <GraficaDeVectores/>
-            </Route>  
+          <Route path="/Menumatlab/Gaussjordan">
+            <Gaussjordan />
+          </Route>
 
-            <Route path="/Menumatlab/GraficasDeValorNumerico">
-              <GraficasDeValorNumerico/>
-            </Route>  
+          <Route path="/Menumatlab/GraficaDeVectores">
+            <GraficaDeVectores />
+          </Route>
 
-            <Route path="/Menumatlab/GraficaVariableSimbolica">
-              <GraficaVariableSimbolica/>
-            </Route>  
+          <Route path="/Menumatlab/GraficasDeValorNumerico">
+            <GraficasDeValorNumerico />
+          </Route>
 
-            <Route path="/Menumatlab/MatrizHessiana">
-              <MatrizHessiana/>
-            </Route>  
+          <Route path="/Menumatlab/GraficaVariableSimbolica">
+            <GraficaVariableSimbolica />
+          </Route>
 
-            <Route path="/Menumatlab/MetodoBiseccion">
-              <MetodoBiseccion/>
-            </Route>  
+          <Route path="/Menumatlab/MatrizHessiana">
+            <MatrizHessiana />
+          </Route>
 
-            <Route path="/Menumatlab/NewtonRhapson">
-              <NewtonRhapson/>
-            </Route>     
+          <Route path="/Menumatlab/MetodoBiseccion">
+            <MetodoBiseccion />
+          </Route>
 
-            <Route path="/Menumatlab/PolinomioDeTaylor">
-              <PolinomioDeTaylor/>
-            </Route>   
-            
-            <Route path="/Menumatlab/PuntosCriticos2Variables">
-              <PuntosCriticos2Variables/>
-            </Route> 
-            
-            <Route path="/Menumatlab/PuntosCriticos2Variables">
-              <PuntosCriticos2Variables/>
-            </Route>       
+          <Route path="/Menumatlab/NewtonRhapson">
+            <NewtonRhapson />
+          </Route>
 
-            <Route path="/Menumatlab/Raices">
-              <Raices/>
-            </Route>         
-            
-            <Route path="/Menumatlab/RegresionMultiple">
-              <RegresionMultiple/>
-            </Route>                     
+          <Route path="/Menumatlab/PolinomioDeTaylor">
+            <PolinomioDeTaylor />
+          </Route>
+
+          <Route path="/Menumatlab/PuntosCriticos2Variables">
+            <PuntosCriticos2Variables />
+          </Route>
+
+          <Route path="/Menumatlab/PuntosCriticos2Variables">
+            <PuntosCriticos2Variables />
+          </Route>
+
+          <Route path="/Menumatlab/Raices">
+            <Raices />
+          </Route>
+
+          <Route path="/Menumatlab/RegresionMultiple">
+            <RegresionMultiple />
+          </Route>
+
+          <Route path="/Menumatlab/ImagenesTransparentes">
+            <ImagenesTransparentes />
+          </Route>
+
+          <Route path="/Menumatlab/GaleriaDeImagenes">
+            <GaleriaDeImagenes />
+          </Route>
+          
 
         </Switch>
 
