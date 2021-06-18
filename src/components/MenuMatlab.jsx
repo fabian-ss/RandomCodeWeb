@@ -363,6 +363,44 @@ const MenuMatlab = () => {
                                     </div>
 
                                 </div>
+                                <div className="code-main-cuerpo-secciones bothide">
+                                    <div className="code-carpeta">
+
+                                        <div className="code-tarj">
+
+                                            <div className="code-tarj-titulo">
+                                                <h2>Music</h2>
+                                                <h2>Player</h2>
+
+
+                                            </div>
+
+                                            <Link to="/Menumatlab/ReproductorDeMusica"><p>Código</p></Link>
+                                            <Link> <p>Ejercicios</p></Link>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div className="code-main-cuerpo-secciones bothide">
+                                    <div className="code-carpeta">
+
+                                        <div className="code-tarj">
+
+                                            <div className="code-tarj-titulo">
+                                                <h2>Music</h2>
+                                                <h2>Player App</h2>
+
+
+                                            </div>
+
+                                            <Link to="/Menumatlab/ReproductorDeMusicaApp"><p>Código</p></Link>
+                                            <Link> <p>Ejercicios</p></Link>
+                                        </div>
+
+                                    </div>
+
+                                </div>
 
                             </div>
 

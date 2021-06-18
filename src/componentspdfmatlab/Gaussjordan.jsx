@@ -43,7 +43,7 @@ function Gaussjordan() {
 
                             <div className="PDFMat-explicacion">
 
-                                <p>Este código es un ejemplo de cómo se puede aplicar la <span><b>ecuación matricial</b></span> para resolver un problema de <span><b>regresión lineal múltiple</b></span>, teniendo una variable independiente y varias variables dependientes</p>
+                                <p>En construcción</p>
 
                             </div>
 

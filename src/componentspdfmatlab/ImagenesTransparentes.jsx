@@ -19,7 +19,7 @@ function Datos() {
 
                         <div className="PDFMat-pdf">
 
-                        <iframe
+                            <iframe
                                 src={pdf}
                                 type='application/pdf'
                                 title='title'
@@ -42,7 +42,7 @@ function Datos() {
 
                             <div className="PDFMat-explicacion">
 
-                                <p>Este código es un ejemplo de cómo se puede aplicar el <span><b>canal de transparencia</b></span></p>
+                                <p>En construcción</p>
 
                             </div>
 

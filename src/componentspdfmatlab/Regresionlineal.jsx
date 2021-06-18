@@ -19,12 +19,12 @@ function Regresionlineal() {
 
                         <div className="PDFMat-pdf">
 
-                        <iframe
-                            src={pdf}
-                            type='application/pdf'
-                            title='title'
-                            frameborder="0"
-                        />
+                            <iframe
+                                src={pdf}
+                                type='application/pdf'
+                                title='title'
+                                frameborder="0"
+                            />
 
                         </div>
 
@@ -40,11 +40,11 @@ function Regresionlineal() {
 
                         <div className="PDFMat-explicacion-contenedor">
 
-                             <div className="PDFMat-explicacion">
+                            <div className="PDFMat-explicacion">
 
-                                <p>Este código es un ejemplo de cómo se puede aplicar la <span><b>ecuación matricial</b></span> para resolver un problema de <span><b>regresión lineal múltiple</b></span>, teniendo una variable independiente y varias variables dependientes</p>
-                                 
-                             </div>
+                                <p>En construcción</p>
+
+                            </div>
 
                         </div>
 
@@ -60,7 +60,7 @@ function Regresionlineal() {
 
                         <div className="PDFMat-video">
 
-                        <iframe  src="https://www.youtube.com/embed/kpX5Cdto05o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/kpX5Cdto05o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         </div>
 

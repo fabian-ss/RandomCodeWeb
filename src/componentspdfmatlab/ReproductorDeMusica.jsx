@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import '../styles/StylePDFMatlab.css';
-import pdf from './pdfmatlab/PuntosCriticos2Variables.pdf';
+import pdf from './pdfmatlab/ReproductorDeMusica.pdf';
 
-function PuntosCriticos2Variables() {
+function RegresionMultiple() {
     return (
         <Fragment>
             <div className="PDFMat-superior">
@@ -13,7 +13,7 @@ function PuntosCriticos2Variables() {
 
                         <div className="PDFMat-titlo">
 
-                            <h1>Puntos críticos de 2 variables</h1>
+                            <h1>Reproductor de música</h1>
 
                         </div>
 
@@ -74,4 +74,4 @@ function PuntosCriticos2Variables() {
     )
 }
 
-export default PuntosCriticos2Variables
+export default RegresionMultiple

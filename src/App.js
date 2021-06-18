@@ -27,8 +27,8 @@ import Raices from './componentspdfmatlab/Raices';
 import RegresionMultiple from './componentspdfmatlab/RegresionMultiple';
 import ImagenesTransparentes from './componentspdfmatlab/ImagenesTransparentes';
 import GaleriaDeImagenes from './componentspdfmatlab/GaleriaDeImagenes'
-
-
+import ReproductorDeMusicaApp from './componentspdfmatlab/ReproductorDeMusicaApp'
+import ReproductorDeMusica from './componentspdfmatlab/ReproductorDeMusica'
 
 function App() {
 
@@ -129,6 +129,13 @@ function App() {
             <GaleriaDeImagenes />
           </Route>
           
+          <Route path="/Menumatlab/ReproductorDeMusicaApp">
+            <ReproductorDeMusicaApp />
+          </Route>
+
+          <Route path="/Menumatlab/ReproductorDeMusica">
+            <ReproductorDeMusica />
+          </Route>
 
         </Switch>
 
