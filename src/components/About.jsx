@@ -205,19 +205,6 @@ const About = () => {
 
                                         </div>
 
-                                        <div className="about-container40-der">
-
-                                            <div className="about-curriculum-titulo">
-                                                <h2>Curriculum</h2>
-                                            </div>
-
-                                            <div className="about-curriculum-boton">
-                                                <Link to="/Curriculum"><button>Visualizar</button></Link>
-
-                                                {/* <a href="./"><button>Visualizar</button></a> */}
-                                            </div>
-
-                                        </div>
 
                                     </div>
 
